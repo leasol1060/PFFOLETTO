@@ -1,0 +1,20 @@
+//tambien me sirve para pegar y copiar codigo, no se trabaja con parametros, le copiamos proiuedades. extendemos codigos a dsitintas etiquetas
+
+%border{
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+//Para imagen de fondo
+%imagenfondo {
+    background-color: $color-fondoprincipal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+//estilos para los margin y pading de los h
+%marginypading{
+    padding: 1px;
+    margin: 1px;
+}

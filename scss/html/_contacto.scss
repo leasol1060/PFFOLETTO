@@ -1,0 +1,28 @@
+//variables
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+
+main{
+    h1 {
+        @extend %marginypading;
+        @include h1;
+    }
+    div{
+        img{
+            @include imagenes (block, auto, 30px, 100%, auto);
+        }
+    }
+        form{
+         @include paraelform;
+         fieldset{
+            legend{
+                @include legenda;
+            }
+            div{
+                label{
+                    @include textolabel;
+                }
+            }
+         }
+    }
+}
